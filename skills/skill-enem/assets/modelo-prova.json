@@ -1,0 +1,429 @@
+{
+  "titulo": "Simulado no estilo ENEM — Exemplo",
+  "subtitulo": "Questões elaboradas pela skill-enem para demonstração (textos elaborados para fins didáticos)",
+  "cabecalho": {
+    "area": "SIMULADO MULTIDISCIPLINAR",
+    "dia": "1º DIA",
+    "caderno": "CADERNO 1",
+    "cor": "AZUL"
+  },
+  "numero_inicial": 1,
+  "itens": [
+    {
+      "area": "LC",
+      "competencia": 7,
+      "habilidade": "LC-H23",
+      "eixo": "CA",
+      "objeto": "Gêneros digitais: recursos linguísticos e interlocutores",
+      "dificuldade": "fácil",
+      "b_estimado": 470,
+      "tempo_min": 2,
+      "blocos": [
+        {
+          "tipo": "destaque",
+          "conteudo": "Biblioteca Municipal @bibliomunicipal\n\nSpoiler: a gente tem MUITO livro que vira série! Antes de maratonar, que tal ler primeiro e depois comparar? Chega aí que a carteirinha sai na hora, é de graça e sem burocracia. Bora?\n\n#LeiaAntes #BibliotecaÉPraTodos"
+        },
+        {
+          "tipo": "referencia",
+          "conteudo": "Texto elaborado para fins didáticos."
+        }
+      ],
+      "enunciado": "Nesse post, a escolha de um registro informal, com gírias e *hashtags*, tem como objetivo",
+      "alternativas": {
+        "A": "substituir o hábito de assistir a séries pela prática regular da leitura.",
+        "B": "informar os procedimentos necessários para a emissão da carteirinha.",
+        "C": "criticar a adaptação de obras literárias para plataformas de *streaming*.",
+        "D": "aproximar a biblioteca do público jovem, usando a linguagem das redes sociais.",
+        "E": "divulgar o lançamento de uma série inspirada no acervo da biblioteca."
+      },
+      "gabarito": "D",
+      "justificativas": {
+        "A": "Extrapola o texto: o post propõe ler antes e comparar, e não abandonar as séries.",
+        "B": "Toma um detalhe (a carteirinha) pelo objetivo da escolha do registro; a informação sobre a carteirinha é secundária.",
+        "C": "Inverte a atitude do texto, que valoriza as adaptações ao sugerir a comparação.",
+        "D": "O registro informal, as gírias (\"Chega aí\", \"Bora?\") e as hashtags reproduzem a linguagem das redes sociais para criar proximidade com o público jovem, alvo do convite.",
+        "E": "Introduz um fato ausente do post: não há lançamento de série mencionado."
+      }
+    },
+    {
+      "area": "CH",
+      "competencia": 6,
+      "habilidade": "CH-H27",
+      "eixo": "CF",
+      "objeto": "Questões ambientais contemporâneas: ilhas de calor",
+      "dificuldade": "médio",
+      "b_estimado": 560,
+      "tempo_min": 3,
+      "blocos": [
+        {
+          "tipo": "texto",
+          "conteudo": "Em uma tarde de verão, estudantes mediram a temperatura do ar em cinco pontos de uma mesma cidade, no mesmo horário. Os resultados estão no gráfico."
+        },
+        {
+          "tipo": "figura",
+          "grafico": {
+            "tipo_grafico": "barras",
+            "categorias": [
+              "Centro\ncomercial",
+              "Bairro\nresidencial",
+              "Avenida\nindustrial",
+              "Praça\narborizada",
+              "Parque\ncom lago"
+            ],
+            "series": [
+              {
+                "nome": "Temperatura",
+                "valores": [
+                  34,
+                  32,
+                  33,
+                  30,
+                  29
+                ]
+              }
+            ],
+            "eixo_y": "Temperatura (°C)",
+            "limites_y": [
+              0,
+              38
+            ],
+            "rotulos_valores": true
+          }
+        },
+        {
+          "tipo": "texto",
+          "conteudo": "O centro comercial tem ruas asfaltadas, edifícios próximos uns dos outros e poucas árvores; o parque tem solo coberto por vegetação e um lago."
+        },
+        {
+          "tipo": "referencia",
+          "conteudo": "Texto elaborado para fins didáticos."
+        }
+      ],
+      "enunciado": "A diferença de temperatura entre o centro comercial e o parque está associada à",
+      "alternativas": {
+        "A": "ocorrência de inversão térmica, que retém o ar quente junto à superfície urbana.",
+        "B": "intensificação do efeito estufa, que eleva a temperatura média do planeta.",
+        "C": "redução da camada de ozônio, que aumenta a radiação nas áreas centrais.",
+        "D": "elevação da umidade do ar, que dificulta a dispersão do calor no centro.",
+        "E": "substituição da cobertura vegetal por superfícies que absorvem e irradiam calor."
+      },
+      "gabarito": "E",
+      "justificativas": {
+        "A": "Confunde com inversão térmica, fenômeno típico de dias frios que retém poluentes, e não explica diferenças entre bairros no mesmo horário.",
+        "B": "Troca a escala local pela global: o efeito estufa não explica diferenças de 5 °C entre pontos de uma mesma cidade.",
+        "C": "Associa indevidamente a camada de ozônio, que filtra radiação ultravioleta, à temperatura do ar em escala local.",
+        "D": "Inverte o papel da umidade, que é maior justamente no parque, com lago e vegetação.",
+        "E": "Ilha de calor: asfalto, concreto e a ausência de vegetação e de água aumentam a absorção e a emissão de calor e reduzem a evapotranspiração."
+      }
+    },
+    {
+      "area": "CN",
+      "competencia": 2,
+      "habilidade": "CN-H5",
+      "eixo": "SP",
+      "objeto": "Potência e corrente em dispositivos elétricos de uso cotidiano",
+      "dificuldade": "médio",
+      "b_estimado": 600,
+      "tempo_min": 3,
+      "blocos": [
+        {
+          "tipo": "texto",
+          "conteudo": "Uma família vai instalar um chuveiro elétrico com as especificações 6 600 W – 220 V. O eletricista explica que o circuito do chuveiro deve ser protegido por um disjuntor de corrente nominal maior que a corrente de funcionamento do aparelho; caso contrário, ele desarmará durante o banho. Por economia e segurança, deve-se escolher o disjuntor de **menor** corrente nominal que atenda a essa condição. A loja dispõe dos modelos indicados no quadro."
+        },
+        {
+          "tipo": "tabela",
+          "cabecalho": [
+            "Modelo",
+            "I",
+            "II",
+            "III",
+            "IV",
+            "V"
+          ],
+          "linhas": [
+            [
+              "Corrente nominal (A)",
+              "25",
+              "32",
+              "40",
+              "50",
+              "63"
+            ]
+          ]
+        },
+        {
+          "tipo": "referencia",
+          "conteudo": "Texto elaborado para fins didáticos."
+        }
+      ],
+      "enunciado": "Considerando que a potência elétrica é dada por $P = U \\cdot i$, qual modelo de disjuntor deve ser instalado?",
+      "alternativas": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "gabarito": "B",
+      "justificativas": {
+        "A": "Escolhe um disjuntor com corrente nominal (25 A) menor que a de funcionamento (30 A); ele desarmaria durante o uso.",
+        "B": "$i = P/U = 6\\,600/220 = 30$ A; o menor disjuntor com corrente nominal acima de 30 A é o de 32 A.",
+        "C": "40 A protege o circuito, mas não é o de menor corrente nominal que atende à condição.",
+        "D": "Calcula a corrente com 127 V ($i \\approx 52$ A) e escolhe o valor mais próximo, que fica abaixo da corrente calculada.",
+        "E": "Calcula a corrente com 127 V ($i \\approx 52$ A), tensão diferente da especificada no aparelho."
+      }
+    },
+    {
+      "area": "MT",
+      "competencia": 1,
+      "habilidade": "MT-H3",
+      "eixo": "SP",
+      "objeto": "Razões, proporções e porcentagem em situações de consumo",
+      "dificuldade": "fácil",
+      "b_estimado": 520,
+      "tempo_min": 3,
+      "blocos": [
+        {
+          "tipo": "texto",
+          "conteudo": "Um supermercado vende arroz em pacotes de 5 kg, por R$ 27,50, e em pacotes de 2 kg, por R$ 11,60. Nesta semana, há uma promoção apenas para os pacotes de 2 kg: na compra de 3 desses pacotes, o cliente paga o preço de 2. Uma cozinha comunitária precisa comprar exatamente 12 kg de arroz e quer gastar o mínimo possível."
+        },
+        {
+          "tipo": "referencia",
+          "conteudo": "Texto elaborado para fins didáticos."
+        }
+      ],
+      "enunciado": "Qual é o menor valor, em real, que essa cozinha pagará pelo arroz?",
+      "alternativas": [
+        "23,20",
+        "46,40",
+        "66,00",
+        "66,60",
+        "69,60"
+      ],
+      "gabarito": "B",
+      "justificativas": {
+        "A": "Considera uma única promoção, que corresponde a apenas 6 kg.",
+        "B": "Duas promoções: 6 pacotes de 2 kg (12 kg) pelo preço de 4, ou seja, $4 \\times 11{,}60 = 46{,}40$.",
+        "C": "Multiplica 12 kg pelo preço do quilo no pacote de 5 kg (R$ 5,50), compra impossível com esses pacotes.",
+        "D": "Ignora a promoção e compra 5 kg + 5 kg + 2 kg: $2 \\times 27{,}50 + 11{,}60 = 66{,}60$.",
+        "E": "Compra 6 pacotes de 2 kg sem aplicar a promoção: $6 \\times 11{,}60 = 69{,}60$."
+      }
+    },
+    {
+      "area": "MT",
+      "competencia": 6,
+      "habilidade": "MT-H24",
+      "eixo": "SP",
+      "objeto": "Gráficos e funções: leitura e extrapolação de tendência",
+      "dificuldade": "médio",
+      "b_estimado": 610,
+      "tempo_min": 3,
+      "blocos": [
+        {
+          "tipo": "texto",
+          "conteudo": "Durante uma estiagem, a companhia de abastecimento de um município registrou diariamente o nível de um reservatório, em porcentagem da capacidade total. O gráfico apresenta os registros dos sete primeiros dias de observação."
+        },
+        {
+          "tipo": "figura",
+          "grafico": {
+            "tipo_grafico": "linhas",
+            "categorias": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "series": [
+              {
+                "nome": "Nível",
+                "valores": [
+                  80,
+                  74,
+                  68,
+                  62,
+                  56,
+                  50,
+                  44
+                ]
+              }
+            ],
+            "eixo_x": "Dia de observação",
+            "eixo_y": "Nível (%)",
+            "limites_y": [
+              0,
+              90
+            ],
+            "rotulos_valores": true,
+            "grade": true
+          }
+        },
+        {
+          "tipo": "texto",
+          "conteudo": "A companhia decretará racionamento quando o nível atingir 20% da capacidade."
+        },
+        {
+          "tipo": "referencia",
+          "conteudo": "Texto elaborado para fins didáticos."
+        }
+      ],
+      "enunciado": "Mantida a tendência observada, o racionamento será decretado no dia de observação de número",
+      "alternativas": [
+        "9",
+        "10",
+        "11",
+        "12",
+        "14"
+      ],
+      "gabarito": "C",
+      "justificativas": {
+        "A": "Lê no gráfico uma queda de 12 pontos por dia (intervalo de dois dias) e conclui que faltam 2 dias após o 7º.",
+        "B": "Calcula $(80 - 20)/6 = 10$ dias de queda, mas não soma esse resultado ao dia inicial (dia 1).",
+        "C": "A queda é de 6 pontos por dia. Do dia 7 (44%) até 20% faltam 24 pontos, ou seja, 4 dias: dia 11.",
+        "D": "Considera uma queda de 5 pontos por dia: $24/5 \\approx 4{,}8$, arredonda para 5 dias e chega ao dia 12.",
+        "E": "Supõe que o tempo restante é igual ao período já observado (7 dias) e soma ao dia 7."
+      }
+    },
+    {
+      "area": "MT",
+      "competencia": 2,
+      "habilidade": "MT-H8",
+      "eixo": "SP",
+      "objeto": "Trigonometria e razões em triângulos retângulos; porcentagem",
+      "dificuldade": "médio",
+      "b_estimado": 590,
+      "tempo_min": 3,
+      "blocos": [
+        {
+          "tipo": "texto",
+          "conteudo": "Uma escola vai construir uma rampa de acesso para vencer um desnível de 0,6 m entre a calçada e a entrada do prédio. As normas de acessibilidade adotadas pela prefeitura determinam que a inclinação da rampa, dada pela razão entre a altura vencida e o comprimento horizontal, expressa em porcentagem, não pode ultrapassar 8%. O esquema representa a rampa vista de lado."
+        },
+        {
+          "tipo": "figura",
+          "tikz": "\\begin{tikzpicture}[scale=0.85,font=\\footnotesize]\\fill[gray!15] (0,0)--(7,0)--(7,1.2)--cycle;\\draw[thick] (0,0)--(7,0)--(7,1.2)--cycle;\\draw (6.7,0)--(6.7,0.3)--(7,0.3);\\draw[<->] (7.4,0)--(7.4,1.2) node[midway,right]{0,6 m};\\draw[<->] (0,-0.35)--(7,-0.35) node[midway,below]{comprimento horizontal};\\node at (3.2,1.0) {rampa};\\draw (1.2,0) arc (0:9.7:1.2);\\end{tikzpicture}",
+          "descricao": "Triângulo retângulo representando a rampa: cateto vertical de 0,6 m (desnível) à direita, cateto horizontal indicado como comprimento horizontal e hipotenusa indicada como rampa.",
+          "desenho": {
+            "tamanho": [
+              3.3,
+              1.5
+            ],
+            "elementos": [
+              {
+                "poligono": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    7,
+                    0
+                  ],
+                  [
+                    7,
+                    1.2
+                  ]
+                ],
+                "preenchimento": "#e6e6e6",
+                "espessura": 1.2
+              },
+              {
+                "angulo_reto": [
+                  7,
+                  0
+                ],
+                "tamanho": 0.3,
+                "direcoes": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ]
+              },
+              {
+                "cota": [
+                  [
+                    7.5,
+                    0
+                  ],
+                  [
+                    7.5,
+                    1.2
+                  ]
+                ],
+                "texto": "0,6 m",
+                "deslocamento": [
+                  0.6,
+                  0
+                ],
+                "fundo": false
+              },
+              {
+                "cota": [
+                  [
+                    0,
+                    -0.4
+                  ],
+                  [
+                    7,
+                    -0.4
+                  ]
+                ],
+                "texto": "comprimento horizontal",
+                "deslocamento": [
+                  0,
+                  -0.3
+                ],
+                "fundo": false
+              },
+              {
+                "texto": "rampa",
+                "pos": [
+                  3.3,
+                  0.95
+                ],
+                "rotacao": 9.7
+              },
+              {
+                "arco": {
+                  "centro": [
+                    0,
+                    0
+                  ],
+                  "raio": 1.3,
+                  "de": 0,
+                  "ate": 9.7
+                }
+              }
+            ]
+          }
+        },
+        {
+          "tipo": "referencia",
+          "conteudo": "Texto elaborado para fins didáticos."
+        }
+      ],
+      "enunciado": "Para atender às normas, o comprimento horizontal mínimo da rampa, em metro, deve ser",
+      "alternativas": [
+        "4,8",
+        "6,0",
+        "7,5",
+        "8,0",
+        "13,3"
+      ],
+      "gabarito": "C",
+      "justificativas": {
+        "A": "Multiplica a altura por 8 em vez de dividir pela taxa: $0{,}6 \\times 8 = 4{,}8$.",
+        "B": "Usa inclinação de 10%: $0{,}6/0{,}10 = 6{,}0$.",
+        "C": "$\\dfrac{0{,}6}{c} \\leq 0{,}08 \\Rightarrow c \\geq \\dfrac{0{,}6}{0{,}08} = 7{,}5$ m.",
+        "D": "Confunde a porcentagem com o comprimento: toma 8% como 8 m.",
+        "E": "Inverte a razão: $8/0{,}6 \\approx 13{,}3$."
+      }
+    }
+  ]
+}

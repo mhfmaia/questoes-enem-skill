@@ -1,0 +1,59 @@
+name: testes-e-release
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+
+permissions:
+  contents: write
+
+jobs:
+  testar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Dependências
+        run: pip install python-docx matplotlib reportlab pymupdf
+      - name: Validar itens de exemplo
+        run: python skills/skill-enem/scripts/validar_item.py exemplos/simulado-exemplo.json
+      - name: Gerar Word e PDF (sem LaTeX)
+        run: python skills/skill-enem/scripts/gerar_prova.py exemplos/simulado-exemplo.json --saida /tmp/saida --nome teste
+      - name: Instalar Tectonic (LaTeX)
+        run: |
+          curl --proto '=https' --tlsv1.2 -fsSL https://drop-sh.fullyjustified.net | sh
+          sudo mv tectonic /usr/local/bin/
+      - name: Gerar PDF via LaTeX
+        run: python skills/skill-enem/scripts/gerar_prova.py exemplos/simulado-exemplo.json --saida /tmp/saida-latex --nome teste --motor-pdf latex
+      - name: Scripts sem dependências
+        run: |
+          python skills/skill-enem/scripts/simular_tri.py --demo
+          bash -n install/install.sh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: exemplos-gerados
+          path: |
+            /tmp/saida
+            /tmp/saida-latex
+
+  release:
+    needs: testar
+    if: startsWith(github.ref, 'refs/tags/v')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Empacotar
+        run: python ferramentas/empacotar.py
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/skill-enem.zip
+            dist/skill-enem-chatgpt.zip
+          generate_release_notes: true
