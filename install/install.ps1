@@ -1,6 +1,6 @@
 # Instalador da skill-enem para Windows (PowerShell 5+).
 # Uso rápido (PowerShell):
-#   irm https://raw.githubusercontent.com/SEU-USUARIO/questoes-enem-skill/main/install/install.ps1 | iex
+#   irm https://raw.githubusercontent.com/mhfmaia/questoes-enem-skill/main/install/install.ps1 | iex
 # Com opções (baixe o arquivo e rode):
 #   .\install.ps1 -Codex -Deps
 # Parâmetros:
@@ -16,7 +16,7 @@ param(
   [switch]$Deps, [switch]$Desinstalar
 )
 $ErrorActionPreference = "Stop"
-$Repo = if ($env:SKILL_ENEM_REPO) { $env:SKILL_ENEM_REPO } else { "SEU-USUARIO/questoes-enem-skill" }
+$Repo = if ($env:SKILL_ENEM_REPO) { $env:SKILL_ENEM_REPO } else { "mhfmaia/questoes-enem-skill" }
 $Ramo = if ($env:SKILL_ENEM_RAMO) { $env:SKILL_ENEM_RAMO } else { "main" }
 $Nome = "skill-enem"
 

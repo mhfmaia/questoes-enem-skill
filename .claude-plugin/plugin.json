@@ -3,8 +3,8 @@
   "version": "1.1.0",
   "description": "Gera itens (questões) inéditos no padrão ENEM/INEP, com Word e PDF no layout do caderno, gráficos, gabarito comentado e ficha técnica pela Matriz de Referência e pela lógica da TRI.",
   "author": { "name": "Matheus" },
-  "homepage": "https://github.com/SEU-USUARIO/questoes-enem-skill",
-  "repository": "https://github.com/SEU-USUARIO/questoes-enem-skill",
+  "homepage": "https://github.com/mhfmaia/questoes-enem-skill",
+  "repository": "https://github.com/mhfmaia/questoes-enem-skill",
   "license": "MIT",
   "keywords": ["enem", "inep", "educacao", "questoes", "simulado", "tri", "professores", "pt-br"]
 }

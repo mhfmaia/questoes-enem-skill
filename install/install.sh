@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Instalador da skill-enem para macOS e Linux.
 # Uso rápido:
-#   curl -fsSL https://raw.githubusercontent.com/SEU-USUARIO/questoes-enem-skill/main/install/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/mhfmaia/questoes-enem-skill/main/install/install.sh | bash
 # Opções (depois de "bash -s --" quando usar curl):
 #   --claude      instala para o Claude Code em ~/.claude/skills (padrão)
 #   --codex       instala para o OpenAI Codex CLI em ~/.codex/skills
@@ -12,7 +12,7 @@
 #   --desinstalar remove a skill dos destinos escolhidos
 set -euo pipefail
 
-REPO="${SKILL_ENEM_REPO:-SEU-USUARIO/questoes-enem-skill}"
+REPO="${SKILL_ENEM_REPO:-mhfmaia/questoes-enem-skill}"
 RAMO="${SKILL_ENEM_RAMO:-main}"
 NOME="skill-enem"
 destinos=()

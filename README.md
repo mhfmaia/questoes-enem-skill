@@ -82,7 +82,7 @@ Escolha **um** caminho. Todos são gratuitos.
 Dentro do Claude Code (terminal, aplicativo de desktop ou extensão do VS Code), digite no chat:
 
 ```
-/plugin marketplace add SEU-USUARIO/questoes-enem-skill
+/plugin marketplace add mhfmaia/questoes-enem-skill
 /plugin install skill-enem@skill-enem
 ```
 
@@ -93,13 +93,13 @@ Depois use `/skill-enem …` (em algumas versões o comando aparece como `/skill
 **macOS e Linux** (Terminal):
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/SEU-USUARIO/questoes-enem-skill/main/install/install.sh | bash -s -- --deps
+curl -fsSL https://raw.githubusercontent.com/mhfmaia/questoes-enem-skill/main/install/install.sh | bash -s -- --deps
 ```
 
 **Windows** (PowerShell):
 
 ```powershell
-irm https://raw.githubusercontent.com/SEU-USUARIO/questoes-enem-skill/main/install/install.ps1 | iex
+irm https://raw.githubusercontent.com/mhfmaia/questoes-enem-skill/main/install/install.ps1 | iex
 ```
 
 Para instalar também as bibliotecas Python no Windows, baixe o `install.ps1` e rode `.\install.ps1 -Deps`.
@@ -273,14 +273,14 @@ questoes-enem-skill/
 
 ## Para quem mantém o repositório
 
-1. Troque `SEU-USUARIO` pelo seu usuário do GitHub em todo o projeto:
+1. Para publicar uma versão nova, atualize a versão em `.claude-plugin/*.json` e em `SKILL.md` e rode
+   `git tag vX.Y.Z && git push --tags`. O GitHub Actions testa tudo (inclusive a compilação LaTeX) e anexa
+   `skill-enem.zip` e `skill-enem-chatgpt.zip` à página de Releases.
+2. Para gerar os .zip localmente: `python ferramentas/empacotar.py` (saem em `dist/`).
+3. Se fizer um *fork*, troque `mhfmaia` pelo seu usuário do GitHub em todo o projeto:
    ```bash
-   grep -rl "SEU-USUARIO" . --exclude-dir=.git | xargs sed -i.bak "s/SEU-USUARIO/seu-usuario/g" && find . -name "*.bak" -delete
+   grep -rl "mhfmaia" . --exclude-dir=.git | xargs sed -i.bak "s/mhfmaia/seu-usuario/g" && find . -name "*.bak" -delete
    ```
-2. Crie o repositório público `questoes-enem-skill` no GitHub e envie o código (`git push`).
-3. Publique uma versão: `git tag v1.1.0 && git push --tags`. O GitHub Actions testa tudo (inclusive a compilação
-   LaTeX) e anexa `skill-enem.zip` e `skill-enem-chatgpt.zip` à página de Releases.
-4. Para gerar os .zip localmente: `python ferramentas/empacotar.py` (saem em `dist/`).
 
 Contribuições são bem-vindas: abra uma *issue* com sugestões, erros encontrados ou exemplos de itens.
 
