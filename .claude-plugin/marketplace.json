@@ -3,14 +3,14 @@
   "owner": { "name": "Matheus Maia", "url": "https://www.instagram.com/matheusmaiabio/" },
   "metadata": {
     "description": "Skill gratuita para professores: questões no padrão ENEM com Word e PDF.",
-    "version": "1.1.0"
+    "version": "1.1.1"
   },
   "plugins": [
     {
       "name": "skill-enem",
       "source": "./",
       "description": "Gera itens no padrão ENEM/INEP com Word e PDF no layout do caderno, gráficos, gabarito comentado e ficha técnica.",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "category": "education"
     }
   ]

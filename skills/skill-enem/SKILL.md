@@ -3,7 +3,7 @@ name: skill-enem
 description: Elabora itens (questões) inéditos idênticos ao padrão do ENEM/INEP e entrega SEMPRE um Word (.docx) e um PDF no layout do caderno do ENEM, gerados a partir de LaTeX, com gráficos, tabelas e figuras. Cada item traz texto-base, comando, cinco alternativas (A–E), gabarito único, distratores plausíveis, justificativas e ficha técnica (competência, habilidade da Matriz de Referência, eixo cognitivo, dificuldade estimada pela lógica da TRI). Também monta simulados, revisa questões, cria versões mais fáceis ou difíceis e analisa respostas de turmas. Ative quando a mensagem começar com /skill-enem ou quando pedirem questões, itens, simulado, prova ou lista "estilo ENEM", "modelo ENEM", "padrão INEP", "com TRI", ou citarem Linguagens, Ciências Humanas, Ciências da Natureza ou Matemática do ENEM.
 license: MIT
 metadata:
-  versao: "1.1.0"
+  versao: "1.1.1"
   idioma: pt-BR
   comando: /skill-enem
   autor: "Matheus Maia (Instagram @matheusmaiabio)"
