@@ -8,7 +8,7 @@ O ChatGPT não instala arquivos `SKILL.md` do mesmo jeito que o Claude. O caminh
 1. Baixe `skill-enem-chatgpt.zip` na página **Releases** do repositório e descompacte.
 2. No ChatGPT, abra **Explorar GPTs → Criar** (ou acesse chatgpt.com/gpts/editor) e vá para a aba **Configurar**.
 3. **Nome:** `skill-enem — Questões no padrão ENEM`.
-   **Descrição:** `Cria questões inéditas no padrão ENEM/INEP com Word e PDF no layout do caderno.`
+   **Descrição:** `Cria questões inéditas no padrão ENEM/INEP com Word e PDF no layout do caderno. Por @matheusmaiabio.`
 4. **Instruções:** cole todo o conteúdo de `LEIA-instrucoes-para-colar-no-GPT.md`.
 5. **Conhecimento:** envie **todos** os arquivos da pasta `conhecimento/` (os .md e os .py).
 6. **Capacidades:** marque **Interpretador de código e análise de dados** (obrigatório para gerar Word e PDF).

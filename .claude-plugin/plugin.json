@@ -2,7 +2,7 @@
   "name": "skill-enem",
   "version": "1.1.0",
   "description": "Gera itens (questões) inéditos no padrão ENEM/INEP, com Word e PDF no layout do caderno, gráficos, gabarito comentado e ficha técnica pela Matriz de Referência e pela lógica da TRI.",
-  "author": { "name": "Matheus" },
+  "author": { "name": "Matheus Maia", "url": "https://www.instagram.com/matheusmaiabio/" },
   "homepage": "https://github.com/mhfmaia/questoes-enem-skill",
   "repository": "https://github.com/mhfmaia/questoes-enem-skill",
   "license": "MIT",

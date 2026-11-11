@@ -7,6 +7,8 @@ do ENEM** e entregar **sempre um Word (.docx) e um PDF** no layout do caderno de
 Baseada nos documentos oficiais do INEP (Matriz de Referência, Guia de Elaboração e Revisão de Itens, Procedimentos
 de Análise e Guia da TRI) e na análise de **3.510 itens** das provas regulares de 2009 a 2025.
 
+Criada por **Matheus Maia** · Instagram [@matheusmaiabio](https://www.instagram.com/matheusmaiabio/)
+
 ```
 /skill-enem 5 questões de Química sobre pH, dificuldade média, com um gráfico
 ```
@@ -39,6 +41,7 @@ Exemplo completo: [PDF](exemplos/saida/simulado-exemplo.pdf) · [Word](exemplos/
 - [Estrutura do repositório](#estrutura-do-repositório)
 - [Limites e uso responsável](#limites-e-uso-responsável)
 - [Para quem mantém o repositório](#para-quem-mantém-o-repositório)
+- [Autor](#autor)
 - [Licença](#licença)
 
 ---
@@ -283,6 +286,12 @@ questoes-enem-skill/
    ```
 
 Contribuições são bem-vindas: abra uma *issue* com sugestões, erros encontrados ou exemplos de itens.
+
+## Autor
+
+Criada e mantida por **Matheus Maia**. Siga no Instagram:
+[**@matheusmaiabio**](https://www.instagram.com/matheusmaiabio/). Se a skill ajudou nas suas aulas, marque o perfil
+ao compartilhar os materiais.
 
 ## Licença
 

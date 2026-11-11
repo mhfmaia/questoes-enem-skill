@@ -6,6 +6,7 @@ metadata:
   versao: "1.1.0"
   idioma: pt-BR
   comando: /skill-enem
+  autor: "Matheus Maia (Instagram @matheusmaiabio)"
 ---
 
 # skill-enem: gerador de itens no padrão ENEM
